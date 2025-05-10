@@ -35,11 +35,30 @@ function App() {
       link: "https://airesolution.vercel.app/"
     },
     {
+      title: "StudyNotion Online E-Learning Platform",
+      description: "A comprehensive online learning platform with interactive features",
+      image: "https://images.unsplash.com/photo-1621761191319-c6fb62004040?auto=format&fit=crop&q=80&w=800",
+      tech: ["React", "WebSocket", "Chart.js"],
+      link: "https://studynotion-frontend.vercel.app/"
+    },
+    {
       title: "Crypto Dashboard",
       description: "Real-time cryptocurrency tracking dashboard",
       image: "https://images.unsplash.com/photo-1621761191319-c6fb62004040?auto=format&fit=crop&q=80&w=800",
       tech: ["React", "WebSocket", "Chart.js"]
-    }
+    },
+    {
+      title: "Crypto Dashboard",
+      description: "Real-time cryptocurrency tracking dashboard",
+      image: "https://images.unsplash.com/photo-1621761191319-c6fb62004040?auto=format&fit=crop&q=80&w=800",
+      tech: ["React", "WebSocket", "Chart.js"]
+    },
+    {
+      title: "Crypto Dashboard",
+      description: "Real-time cryptocurrency tracking dashboard",
+      image: "https://images.unsplash.com/photo-1621761191319-c6fb62004040?auto=format&fit=crop&q=80&w=800",
+      tech: ["React", "WebSocket", "Chart.js"]
+    },
   ];
 
   return (
