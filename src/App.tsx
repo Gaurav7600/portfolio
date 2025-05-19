@@ -4,6 +4,9 @@ import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { motion } from 'framer-motion';
+import HotelImage from './assets/hotel_management_system_photo.png';
+import CourierImage from './assets/courier_system.png';
+import EstateImage from './assets/real_estate.png';
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -42,22 +45,22 @@ function App() {
       link: "https://studynotion-frontend.vercel.app/"
     },
     {
-      title: "Crypto Dashboard",
-      description: "Real-time cryptocurrency tracking dashboard",
-      image: "https://images.unsplash.com/photo-1621761191319-c6fb62004040?auto=format&fit=crop&q=80&w=800",
-      tech: ["React", "WebSocket", "Chart.js"]
+      title: "Hotel Management System in Odoo",
+      description: "Developed a complete Hotel Management System in Odoo 18 with integrated modules for Room Booking, Housekeeping, Guest Management, Restaurant Billing, and Reporting and Room Pricelist Model to handle seasonal pricing and discounts dynamically",
+      image: HotelImage,
+      tech: ["Odoo", "Python", "XML", "PostgreSQL"]
     },
     {
-      title: "Crypto Dashboard",
-      description: "Real-time cryptocurrency tracking dashboard",
-      image: "https://images.unsplash.com/photo-1621761191319-c6fb62004040?auto=format&fit=crop&q=80&w=800",
-      tech: ["React", "WebSocket", "Chart.js"]
+      title: "Courier Management System in Odoo",
+      description: "Built Courier Management System in Odoo with roles for Admin, Employee, Delivery Agent, and Customer, and integrated a complaint dashboard and analytics reports",
+      image: CourierImage,
+      tech: ["Odoo", "Python", "XML", "PostgreSQL"]
     },
     {
-      title: "Crypto Dashboard",
-      description: "Real-time cryptocurrency tracking dashboard",
-      image: "https://images.unsplash.com/photo-1621761191319-c6fb62004040?auto=format&fit=crop&q=80&w=800",
-      tech: ["React", "WebSocket", "Chart.js"]
+      title: "Real Estate - Property Listing Platform",
+      description: "Developed a full-featured custom module to manage real estate property listings, inquiries, and sales workflow, Created models for Properties, Property Types, Agents, Property Tags and Designed smart views and filters (Kanban, List, and Form) for managing properties by location, budget, and status.",
+      image: EstateImage,
+      tech: ["Odoo", "Python", "XML", "PostgreSQL"]
     },
   ];
 
@@ -190,7 +193,7 @@ function App() {
                 }}
               >
                 <div className="aspect-video">
-                  <img src={project.image} alt={project.title} className="w-full h-full object-cover" />
+                  <img src={project.image} alt={project.title} className="w-full h-full object-cover object-center" />
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-bold mb-2 text-white">{project.title}</h3>
