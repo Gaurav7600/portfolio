@@ -140,7 +140,7 @@ function App() {
           <h2 className="text-4xl font-bold mb-12 text-center">About Me</h2>
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="aspect-square rounded-2xl overflow-hidden">
-              <img src="https://i.postimg.cc/43x4kQPC/Gaurav-Thakor.jpg" alt="Profile" className="w-full h-full object-cover" />
+              <img src="https://i.postimg.cc/MKZzJhwM/Gaurav-Thakor-CV-Photo.png" alt="Profile" className="w-full h-full object-cover" />
             </div>
             <div className="space-y-6">
               <p className="text-gray-300 text-lg">
