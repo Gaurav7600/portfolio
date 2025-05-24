@@ -48,19 +48,22 @@ function App() {
       title: "Hotel Management System in Odoo",
       description: "Developed a complete Hotel Management System in Odoo 18 with integrated modules for Room Booking, Housekeeping, Guest Management, Restaurant Billing, and Reporting and Room Pricelist Model to handle seasonal pricing and discounts dynamically",
       image: HotelImage,
-      tech: ["Odoo", "Python", "XML", "PostgreSQL"]
+      tech: ["Odoo", "Python", "XML", "PostgreSQL"],
+      link:"https://github.com/Gaurav7600/odoo_hotel_management"
     },
     {
       title: "Courier Management System in Odoo",
       description: "Built Courier Management System in Odoo with roles for Admin, Employee, Delivery Agent, and Customer, and integrated a complaint dashboard and analytics reports",
       image: CourierImage,
-      tech: ["Odoo", "Python", "XML", "PostgreSQL"]
+      tech: ["Odoo", "Python", "XML", "PostgreSQL"],
+      link:"https://github.com/Gaurav7600/odoo_courier_management"
     },
     {
       title: "Real Estate - Property Listing Platform",
       description: "Developed a full-featured custom module to manage real estate property listings, inquiries, and sales workflow, Created models for Properties, Property Types, Agents, Property Tags and Designed smart views and filters (Kanban, List, and Form) for managing properties by location, budget, and status.",
       image: EstateImage,
-      tech: ["Odoo", "Python", "XML", "PostgreSQL"]
+      tech: ["Odoo", "Python", "XML", "PostgreSQL"],
+      link:"https://github.com/Gaurav7600/odoo_real_estate"
     },
   ];
 
